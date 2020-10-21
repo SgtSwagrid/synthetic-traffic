@@ -3,7 +3,7 @@ package synthetictraffic.generators
 import synthetictraffic.topology.Structures._
 import synthetictraffic.generators.Generators.TrafficRouter
 
-object Ospf extends TrafficRouter {
+object OspfRouter extends TrafficRouter {
 
   def shortestPaths(topology: Topology): Map[Pair, Path] = {
 
